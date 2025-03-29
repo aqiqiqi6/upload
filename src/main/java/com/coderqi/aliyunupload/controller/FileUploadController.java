@@ -47,6 +47,7 @@ public class FileUploadController {
 
         result.put("status", "success");
         result.put("fileUrl", fileUrl);
+        System.out.println("master第一次提交");
         return result;
     }
 }
